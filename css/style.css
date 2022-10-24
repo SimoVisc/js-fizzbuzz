@@ -1,9 +1,16 @@
+/* RESET */
 *{
     box-sizing:border-box;
     margin:0;
     padding:0;
 }
+/* COMMON */
 body{
     background-color: #083b4c;
-    color: #fff;
+}
+/* HEADER */
+h1{
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
 }
