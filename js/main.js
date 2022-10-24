@@ -3,13 +3,15 @@
 const ul = document.getElementById("numbers");
 
 for(let i = 1; i<=100; i++){
-    const element = `<li>${i}</li>`;
-    ul.innerHTML += element;
+    const element = document.createElement('li');
+    element.innerHTML = i;
+    ul.append(element)
+
     if(i % 3 ===0){
-        console.log(i)= "Fizz"
+        element.innerHTML ="Fizz"
+    }
+    if(i % 5 ===0){
+        element.innerHTML ="Buzz"
     }
 }
-console.log(element,)
-
-
 
