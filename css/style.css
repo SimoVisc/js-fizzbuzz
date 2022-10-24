@@ -12,5 +12,32 @@ body{
 h1{
   color: #fff;
   text-align: center;
-  text-transform: uppercase;
+  padding: 1.25rem;
+  font-size: 5rem;
+}
+/* MAIN */
+main{
+   min-height: 100vh;
+}
+.container{
+    max-width: 62.5rem;
+    padding:0 1.25rem;
+    margin: 0 auto;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1389b2;
+    margin:0.625rem;
+    width: 6.25rem;
+    height:6.25rem;
+    flex-grow: 1;
+    
 }

@@ -10,8 +10,11 @@ for(let i = 1; i<=100; i++){
     if(i % 3 ===0){
         element.innerHTML ="Fizz"
     }
-    if(i % 5 ===0){
+     if(i % 5 ===0){
         element.innerHTML ="Buzz"
+    }
+    if( i % 3 ===0 && i % 5 ===0){
+        element.innerHTML ="FizzBuzz"
     }
 }
 
